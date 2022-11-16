@@ -12,22 +12,19 @@ namespace Project1
 {
     public partial class MainMenu : Form
     {
-        public MainMenu()
-        {
-            InitializeComponent();
-        }
-
         public MainMenu(string user)
         {
             InitializeComponent();
             if (user == "Guest")
             {
                 UsernameShowGuest.Show();
-                Welcome.Hide();
-            } if (user == "User")
+                Username.Hide();
+            }
+            else
             {
                 UsernameShowGuest.Hide();
-                Welcome.Show();
+                Username.Text = LoginTab.username;
+                Username.Show();
             }
         }
 
@@ -36,25 +33,6 @@ namespace Project1
 
         }
 
-        private void Link2022_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -63,14 +41,14 @@ namespace Project1
             LT.Show();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Button2011_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Button2013_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

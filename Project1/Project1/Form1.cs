@@ -27,11 +27,15 @@ namespace Project1
             Application.Exit();
         }
 
+        public static string username, password;
+
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
-            if (TxtBoxUsername.Text == "Omitted" && TxtBoxPassword.Text == "Markidoo")
+            if (TxtBoxUsername.Text != null && TxtBoxPassword.Text != null)
             {
-                MainMenu MM = new MainMenu("User");
+                username = TxtBoxUsername.Text;
+                password = TxtBoxPassword.Text;
+                MainMenu MM = new MainMenu(TxtBoxUsername.Text);
                 MM.Show();
                 this.Hide();
             }
@@ -55,6 +59,14 @@ namespace Project1
             if (e.KeyCode == Keys.Enter)
             {
                 ButtonLogin.PerformClick();
+            }
+        }
+
+        private void LoginTab_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
             }
         }
 

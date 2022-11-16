@@ -30,7 +30,6 @@ namespace Project1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginTab));
             this.TxtBoxUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -42,25 +41,24 @@ namespace Project1
             // 
             // TxtBoxUsername
             // 
+            this.TxtBoxUsername.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.TxtBoxUsername.BorderColor = System.Drawing.Color.Black;
             this.TxtBoxUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtBoxUsername.DefaultText = "";
             this.TxtBoxUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TxtBoxUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtBoxUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtBoxUsername.DisabledState.Parent = this.TxtBoxUsername;
             this.TxtBoxUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtBoxUsername.FillColor = System.Drawing.Color.Black;
             this.TxtBoxUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtBoxUsername.FocusedState.Parent = this.TxtBoxUsername;
-            this.TxtBoxUsername.ForeColor = System.Drawing.Color.Black;
+            this.TxtBoxUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TxtBoxUsername.ForeColor = System.Drawing.Color.White;
             this.TxtBoxUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtBoxUsername.HoverState.Parent = this.TxtBoxUsername;
-            this.TxtBoxUsername.Location = new System.Drawing.Point(24, 109);
+            this.TxtBoxUsername.Location = new System.Drawing.Point(98, 133);
             this.TxtBoxUsername.Name = "TxtBoxUsername";
             this.TxtBoxUsername.PasswordChar = '\0';
             this.TxtBoxUsername.PlaceholderText = "Enter Username";
             this.TxtBoxUsername.SelectedText = "";
-            this.TxtBoxUsername.ShadowDecoration.Parent = this.TxtBoxUsername;
             this.TxtBoxUsername.Size = new System.Drawing.Size(200, 36);
             this.TxtBoxUsername.TabIndex = 0;
             this.TxtBoxUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtBoxUsername_KeyDown);
@@ -83,19 +81,17 @@ namespace Project1
             this.TxtBoxPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TxtBoxPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.TxtBoxPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtBoxPassword.DisabledState.Parent = this.TxtBoxPassword;
             this.TxtBoxPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtBoxPassword.FillColor = System.Drawing.Color.Black;
             this.TxtBoxPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtBoxPassword.FocusedState.Parent = this.TxtBoxPassword;
-            this.TxtBoxPassword.ForeColor = System.Drawing.Color.Black;
+            this.TxtBoxPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TxtBoxPassword.ForeColor = System.Drawing.Color.White;
             this.TxtBoxPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtBoxPassword.HoverState.Parent = this.TxtBoxPassword;
-            this.TxtBoxPassword.Location = new System.Drawing.Point(24, 165);
+            this.TxtBoxPassword.Location = new System.Drawing.Point(98, 195);
             this.TxtBoxPassword.Name = "TxtBoxPassword";
             this.TxtBoxPassword.PasswordChar = '*';
             this.TxtBoxPassword.PlaceholderText = "Enter Password";
             this.TxtBoxPassword.SelectedText = "";
-            this.TxtBoxPassword.ShadowDecoration.Parent = this.TxtBoxPassword;
             this.TxtBoxPassword.Size = new System.Drawing.Size(200, 36);
             this.TxtBoxPassword.TabIndex = 1;
             this.TxtBoxPassword.TextChanged += new System.EventHandler(this.TxtBoxPassword_TextChanged);
@@ -105,16 +101,14 @@ namespace Project1
             // 
             this.ButtonExit.BackColor = System.Drawing.Color.Transparent;
             this.ButtonExit.BorderRadius = 5;
-            this.ButtonExit.CheckedState.Parent = this.ButtonExit;
-            this.ButtonExit.CustomImages.Parent = this.ButtonExit;
-            this.ButtonExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.ButtonExit.CheckedState.FillColor = System.Drawing.Color.White;
+            this.ButtonExit.FillColor = System.Drawing.Color.Black;
             this.ButtonExit.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold);
-            this.ButtonExit.ForeColor = System.Drawing.Color.White;
-            this.ButtonExit.HoverState.Parent = this.ButtonExit;
-            this.ButtonExit.Location = new System.Drawing.Point(342, 12);
+            this.ButtonExit.ForeColor = System.Drawing.Color.Gray;
+            this.ButtonExit.Location = new System.Drawing.Point(360, 12);
             this.ButtonExit.Name = "ButtonExit";
-            this.ButtonExit.ShadowDecoration.Parent = this.ButtonExit;
-            this.ButtonExit.Size = new System.Drawing.Size(22, 27);
+            this.ButtonExit.PressedColor = System.Drawing.Color.White;
+            this.ButtonExit.Size = new System.Drawing.Size(28, 30);
             this.ButtonExit.TabIndex = 2;
             this.ButtonExit.Text = "X";
             this.ButtonExit.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -126,7 +120,7 @@ namespace Project1
             this.LinkLabelGuest.BackColor = System.Drawing.Color.Transparent;
             this.LinkLabelGuest.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LinkLabelGuest.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(242)))), ((int)(((byte)(246)))));
-            this.LinkLabelGuest.Location = new System.Drawing.Point(127, 466);
+            this.LinkLabelGuest.Location = new System.Drawing.Point(140, 556);
             this.LinkLabelGuest.Name = "LinkLabelGuest";
             this.LinkLabelGuest.Size = new System.Drawing.Size(123, 18);
             this.LinkLabelGuest.TabIndex = 3;
@@ -138,27 +132,24 @@ namespace Project1
             // 
             this.ButtonLogin.BackColor = System.Drawing.Color.Transparent;
             this.ButtonLogin.BorderRadius = 5;
-            this.ButtonLogin.CheckedState.Parent = this.ButtonLogin;
-            this.ButtonLogin.CustomImages.Parent = this.ButtonLogin;
+            this.ButtonLogin.CheckedState.BorderColor = System.Drawing.Color.White;
             this.ButtonLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(13)))), ((int)(((byte)(38)))));
             this.ButtonLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.ButtonLogin.ForeColor = System.Drawing.Color.White;
-            this.ButtonLogin.HoverState.Parent = this.ButtonLogin;
-            this.ButtonLogin.Location = new System.Drawing.Point(44, 259);
+            this.ButtonLogin.Location = new System.Drawing.Point(108, 486);
             this.ButtonLogin.Name = "ButtonLogin";
-            this.ButtonLogin.ShadowDecoration.Parent = this.ButtonLogin;
             this.ButtonLogin.Size = new System.Drawing.Size(180, 45);
             this.ButtonLogin.TabIndex = 4;
-            this.ButtonLogin.Text = "Login League      > ";
+            this.ButtonLogin.Text = "Login League";
             this.ButtonLogin.Click += new System.EventHandler(this.ButtonLogin_Click);
             // 
             // LoginTab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Project1.Properties.Resources.Untitled_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(375, 609);
+            this.ClientSize = new System.Drawing.Size(400, 615);
             this.Controls.Add(this.ButtonLogin);
             this.Controls.Add(this.LinkLabelGuest);
             this.Controls.Add(this.ButtonExit);
@@ -170,6 +161,7 @@ namespace Project1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginTab_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

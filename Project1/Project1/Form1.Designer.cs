@@ -37,6 +37,7 @@ namespace Project1
             this.ButtonExit = new Guna.UI2.WinForms.Guna2Button();
             this.LinkLabelGuest = new System.Windows.Forms.LinkLabel();
             this.ButtonLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.SuspendLayout();
             // 
             // TxtBoxUsername
@@ -143,6 +144,11 @@ namespace Project1
             this.ButtonLogin.Text = "Login League";
             this.ButtonLogin.Click += new System.EventHandler(this.ButtonLogin_Click);
             // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 12;
+            this.guna2Elipse3.TargetControl = this;
+            // 
             // LoginTab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,6 +161,7 @@ namespace Project1
             this.Controls.Add(this.ButtonExit);
             this.Controls.Add(this.TxtBoxPassword);
             this.Controls.Add(this.TxtBoxUsername);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LoginTab";
@@ -176,6 +183,7 @@ namespace Project1
         private Guna.UI2.WinForms.Guna2Button ButtonExit;
         private System.Windows.Forms.LinkLabel LinkLabelGuest;
         private Guna.UI2.WinForms.Guna2Button ButtonLogin;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
     }
 }
 

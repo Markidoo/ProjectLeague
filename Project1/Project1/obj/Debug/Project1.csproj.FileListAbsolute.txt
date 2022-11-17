@@ -28,3 +28,29 @@ C:\git\Project League\Project1\Project1\obj\Debug\Project1.csproj.CoreCompileInp
 C:\git\Project League\Project1\Project1\obj\Debug\Project1.csproj.CopyComplete
 C:\git\Project League\Project1\Project1\obj\Debug\Project1.exe
 C:\git\Project League\Project1\Project1\obj\Debug\Project1.pdb
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\bin\Debug\Project1.exe.config
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\bin\Debug\Project1.exe
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\bin\Debug\Project1.pdb
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\bin\Debug\Guna.Charts.WinForms.dll
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\bin\Debug\Guna.UI2.dll
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.LoginTab.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.MainMenu.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.cache
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.exe
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.pdb
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2011.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2012.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2013.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2014.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2015.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2016.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2017.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2018.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2019.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2020.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2021.resources
+C:\Users\ACER\OneDrive\Desktop\ProjectFinals\Project1\Project1\obj\Debug\Project1.Control.User2022.resources

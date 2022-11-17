@@ -31,13 +31,16 @@ namespace Project1
 
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
-            if (TxtBoxUsername.Text != null && TxtBoxPassword.Text != null)
+            if (String.IsNullOrEmpty(TxtBoxUsername.Text) == false && String.IsNullOrEmpty(TxtBoxPassword.Text) == false)
             {
                 username = TxtBoxUsername.Text;
                 password = TxtBoxPassword.Text;
-                MainMenu MM = new MainMenu(TxtBoxUsername.Text);
+                MainMenu MM = new MainMenu(username);
                 MM.Show();
                 this.Hide();
+            } else
+            {
+                MessageBox.Show("Do Not Leave any Fields Empty >:(");
             }
         }
 

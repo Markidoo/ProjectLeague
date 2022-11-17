@@ -55,11 +55,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Control\UserControl1.cs">
+    <Compile Include="Control\User2011.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Control\UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="Control\User2011.Designer.cs">
+      <DependentUpon>User2011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2012.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2012.Designer.cs">
+      <DependentUpon>User2012.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2013.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2013.Designer.cs">
+      <DependentUpon>User2013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2014.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2014.Designer.cs">
+      <DependentUpon>User2014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2015.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2015.Designer.cs">
+      <DependentUpon>User2015.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2016.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2016.Designer.cs">
+      <DependentUpon>User2016.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2017.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2017.Designer.cs">
+      <DependentUpon>User2017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2018.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2018.Designer.cs">
+      <DependentUpon>User2018.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2019.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2019.Designer.cs">
+      <DependentUpon>User2019.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2020.Designer.cs">
+      <DependentUpon>User2020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2021.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2021.Designer.cs">
+      <DependentUpon>User2021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2022.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2022.Designer.cs">
+      <DependentUpon>User2022.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -75,8 +141,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Control\UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <EmbeddedResource Include="Control\User2011.resx">
+      <DependentUpon>User2011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2012.resx">
+      <DependentUpon>User2012.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2013.resx">
+      <DependentUpon>User2013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2014.resx">
+      <DependentUpon>User2014.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2015.resx">
+      <DependentUpon>User2015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2016.resx">
+      <DependentUpon>User2016.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2017.resx">
+      <DependentUpon>User2017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2018.resx">
+      <DependentUpon>User2018.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2019.resx">
+      <DependentUpon>User2019.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2020.resx">
+      <DependentUpon>User2020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2021.resx">
+      <DependentUpon>User2021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2022.resx">
+      <DependentUpon>User2022.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
